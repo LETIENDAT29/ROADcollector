@@ -1,0 +1,18 @@
+{
+    "cli": {
+        "version": ">= 2.8.0"
+    },
+    "build": {
+        "development": {
+            "distribution": "internal",
+            "ios": {
+                "simulator": false,
+                "image": "latest",
+                "buildConfiguration": "Debug"
+            },
+            "env": {
+                "APP_VARIANT": "development"
+            }
+        }
+    }
+}
